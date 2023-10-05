@@ -17,6 +17,7 @@
 
 int main() {
 
+
     char word[] = { } ;
     gets ( word ) ;
 
