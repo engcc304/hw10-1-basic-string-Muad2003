@@ -13,3 +13,12 @@
 
 */
 
+#include <stdio.h>
+
+int main() {
+
+    char word[] = { } ;
+    gets ( word ) ;
+
+    return 0 ;
+} // end main
