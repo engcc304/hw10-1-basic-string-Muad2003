@@ -13,3 +13,12 @@
 
 */
 
+#include <stdio.h>
+
+int main() {
+    char name [ 100 ] ;
+    fgets ( name,sizeof ( name ) ,stdin ) ;
+    printf ("Name: %s\n", name);
+
+    return 0 ;
+} // end main
