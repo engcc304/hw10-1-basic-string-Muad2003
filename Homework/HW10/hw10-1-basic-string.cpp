@@ -16,10 +16,10 @@
 #include <stdio.h>
 
 int main() {
+    char name [ 100 ] ;
+    gets ( name ) ;
 
-
-    char word[] = { } ;
-    gets ( word ) ;
+    printf ("Name: %s\n", name);
 
     return 0 ;
 } // end main
