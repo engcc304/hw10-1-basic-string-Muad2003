@@ -17,8 +17,7 @@
 
 int main() {
     char name [ 100 ] ;
-    gets ( name ) ;
-
+    fgets ( name,sizeof ( name ) ,stdin ) ;
     printf ("Name: %s\n", name);
 
     return 0 ;
